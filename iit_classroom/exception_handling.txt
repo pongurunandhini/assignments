@@ -1,7 +1,7 @@
 **********************************************************************************
-Ex.no:01					                            Name:G.Pongurunandhini	                   
+Ex.no:01					           Name:G.Pongurunandhini	                   
 		         C++ PROGRAMMING  LANGUAGE
-Date:18.04.2020						     Roll.no:1912022
+Date:18.04.2020						   Roll.no:1912022
 **********************************************************************************
 	                                    TOPIC : EXCEPTION HANDLING
     • Exception handling is the process of responding to exceptions when a computer program runs .
@@ -9,7 +9,7 @@ Date:18.04.2020						     Roll.no:1912022
     •  C++ Exceptions handling mechanism is basically built upon three keywords .namey, try, throw and catch.
 Digraph:
 
-			 ----------------                              -------------------|
+    ----------------                              -------------------|
    |  try block     |                             |   catch block    |
    |----------------|                             |------------------|
    | Detects and    |       Exception             |   catches and    |
@@ -35,26 +35,26 @@ Example Program:
 		#include <iostream.h>
 		int main()
 		{
-   		         int a,b,c;
+   		        int a,b,c;
     		        cout<<"Input:\n"<<"_______\n";
-          		  cout<<"Enter a and b\n";
-   		         cin>>a>>b;
-              try{
+          		cout<<"Enter a and b\n";
+   		        cin>>a>>b;
+                        try{
        		        	 if(c=a+b)
-              			      {
+              			  {
            			     	   cout<<"OUTPUT:\n"<<"_______\n";                                                                                                                
-            		      	  cout<<"Addition of = "<<c<<"\n";
-        				            }
+            		      	           cout<<"Addition of = "<<c<<"\n";
+        	                 }
       		        	 else{
             		      	  throw(c);
        		        	 }
     		        }
     		        catch(int c)
-                    {
+                          {
         			           cout<<"OUTPUT:\n"<<"_______\n";
         			           cout<<"Eception caught : ";
         			           cout<<"A and B can only be numbers\n ";
-    		        }
+    		         }
     		        return 0;
 	            }			
 OUTPUT:
